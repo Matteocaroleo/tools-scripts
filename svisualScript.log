@@ -1,0 +1,37 @@
+###########################################
+# Sentaurus Visual N-2017.09-SP2.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec 17, 2025. 10:21:11.
+# Version: 27.0.926 (1.926)
+# Mode: Interactive (GUI).
+# Hostname: integratedsystemstech.openstack.polito.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-553.8.1.el8_10.x86_64.
+###########################################
+
+  list_custom_buttons
+  remove_custom_buttons {}
+  add_custom_button -name + -desc {Add Custom Button} -script ::customButtons::addButton
+#--> +
+  add_custom_button -name - -desc {Delete Custom Button} -script ::customButtons::removeButton
+#--> -
+load_script_file /home/ist25.10/Desktop/Project_copy/tmp/g_integratedsystemstech.openstack.polito_2533548_0.tmp/toolsScripts/svisualScript.tcl
+cd /home/ist25.10/Desktop/Project_copy/tmp/g_integratedsystemstech.openstack.polito_2533548_0.tmp/toolsScripts
+  load_file ../n@node@_presimulation_fps.tdr
+#--> n_node__presimulation_fps
+  create_plot -dataset n_node__presimulation_fps
+  select_plots {Plot_n_node__presimulation_fps}
+#--> Plot_n_node__presimulation_fps
+#--> Plot_n_node__presimulation_fps
+  select_plots {Plot_n_node__presimulation_fps}
+#--> Plot_n_node__presimulation_fps
+  start_movie -resolution 991x621
+  zoom_plot -plot Plot_n_node__presimulation_fps -window {-0.0974907 -0.326749 0.202625 0.351583}
+  export_view ../img/final_test.png -plots {Plot_n_node__presimulation_fps} -format png -overwrite
+#--> 0
+  stop_movie
+#--> 0
+  exit 0
+#--> 0
+ 

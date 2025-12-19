@@ -1,0 +1,40 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                        Version N-2017.09-SP2                         ***
+***                        (1.929, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Jan 24 14:21:47 PST 2018 on tcadprod35
+
+      Started at: Wed Dec 17 10:16:41 2025 (UTC)
+       User name: ist25.10
+       Host name: integratedsystemstech.openstack.polito
+             PID: 3142753
+    Architecture: x86_64
+Operating system: Linux rel. 4.18.0-553.8.1.el8_10.x86_64 ver. #1 SMP Tue Jul 2 17:10:26 UTC 2024
+
+------------------------------------------------------------------------------
+Checking syntax of toolsScripts/sprocess_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: toolsScripts/sprocess_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /eda/others/Sentaurus_2017/N_2017.09-SP2/tcad/current/lib/sprocess-27.0.929/TclLib/SPROCESS.models... 
+Caught ctrl-c, 2 more to kill job
+
+Caught ctrl-c, 1 more to kill job
+
+stopping...
