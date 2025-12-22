@@ -87,7 +87,7 @@ refinebox Silicon min= {0.0 0.04} max= {0.06 0.1} xrefine= {0.001 0.001 0.001} \
 grid remesh
 
 ## ---------- p HDD Extension implantation -----------------------
-implant Boron dose= 4.5e15  energy= 2<keV> tilt= 7<degree> rotation= -90<degree>
+implant Boron dose= TEST  energy= 2<keV> tilt= 7<degree> rotation= -90<degree>
 
 struct tdr= n@node@_PMOS14 ; # P+ implantation
 
